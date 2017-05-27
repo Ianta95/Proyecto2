@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GuiaInteractiva</string>
+    <string name="opcionA">A</string>
+    <string name="opcionB">B</string>
+    <string name="opcionC">C</string>
+    <string name="opcionD">D</string>
+    <string name="inicio_pregunta">Pregunta</string>
+    <string name="score">Score:</string>
+
+</resources>

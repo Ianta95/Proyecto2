@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ElegirFecha</string>
+    <string name="texto_seleccionar_fecha">Selecciona una fecha para el evento:</string>
+    <string name="fecha_default">22/05</string>
+    <string name="texto_boton_fecha"> Elegir Fecha </string>
+    <string name="texto_seleccionar_hora">Selecciona una hora para el evento:</string>
+    <string name="hora_default">13:00</string>
+    <string name="texto_boton_hora"> Elegir Hora </string>
+    <string name="texto_boton_guardar">Guardar evento</string>
+</resources>

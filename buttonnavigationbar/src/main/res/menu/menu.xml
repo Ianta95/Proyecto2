@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_guias"
+        android:enabled="true"
+        android:icon="@drawable/ic_entrenamiento"
+        android:title="@string/guias"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_calendario"
+        android:enabled="true"
+        android:icon="@drawable/ic_calendario"
+        android:title="@string/calendario"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_perfil"
+        android:enabled="true"
+        android:icon="@drawable/ic_perfil"
+        android:title="@string/perfil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_radar"
+        android:enabled="true"
+        android:icon="@drawable/ic_localizacion"
+        android:title="@string/radar"
+        app:showAsAction="ifRoom" />
+
+</menu>

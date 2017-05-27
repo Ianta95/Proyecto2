@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_seleccion_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/texto_seleccionar_fecha"
+        android:textColor="@color/color_texto"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/input_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/color_texto"
+        android:text="22/05" />
+
+    <Button
+        android:id="@+id/btn_fecha"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/texto_boton_fecha" />
+
+    <TextView
+        android:id="@+id/txt_seleccion_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/texto_seleccionar_hora"
+        android:textColor="@color/color_texto"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/input_hora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/color_texto"
+        android:text="@string/hora_default" />
+
+    <Button
+        android:id="@+id/btn_hora"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/texto_boton_hora" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_guardar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:textColor="@color/color_texto"
+        android:backgroundTint="@color/color_botones"
+        android:text="@string/texto_boton_guardar"
+        />
+</LinearLayout>
+
